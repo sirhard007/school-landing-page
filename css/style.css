@@ -359,6 +359,13 @@ gap: 50px;
     align-items: center;
     padding: 10px;
 }
+.form-fields{
+    display: flex;
+    height: 150vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
 .container{
     max-width: 700px;
     width: 100%;
@@ -471,8 +478,20 @@ form .buttons{
     font-weight: 500;
     margin-bottom: 5px;
 }
-.user-detail .input-box input{
+.user-detail .input-box input,
+ .select-box{
     height: 45px;
+    width: 340px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3 ease;
+}
+textarea{
+    height: 100px;
     width: 340px;
     outline: none;
     border-radius: 5px;
@@ -741,4 +760,21 @@ tfoot td{
     color: green;
     background: none;
     cursor: pointer;
+}
+.select-box select{
+    height: 100%;
+    width: 98%;
+    outline: none;
+    color: #707070;
+    font-size: 1rem;
+}
+.column{
+    margin-bottom: 10px;
+}
+.input-boxs{
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.file{
+    padding-top: 12px;
 }
